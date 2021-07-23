@@ -1,0 +1,12 @@
+index:
+    path: /
+    controller: App\Controller\LoginController::index
+
+api_login_check:
+    path: /api/login_check
+
+vue_pages:
+    path: /{route}
+    controller: App\Controller\LoginController::index
+    requirements:
+        route: .*
